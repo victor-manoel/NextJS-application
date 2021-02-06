@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import db from '../db.json';
 
 const Title = styled.h4`
   font-size: 50px;
@@ -6,5 +7,12 @@ const Title = styled.h4`
 `
 
 export default function Home() {
-  return <Title>projeto</Title>
+  return (
+    <div style={{backgroundImage: db.bg}}>
+      lorem ipsum
+    </div>
+
+
+
+  )
 }
